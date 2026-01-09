@@ -1,31 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "inter", sans-serif;
 }
-header nav{
-background-color: #FFFFFF;
-display: flex;
-justify-content: space-around;
-margin: 0 auto;
-padding: 16px 120px;
-gap: 346;
+
+header nav {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 16px 120px;
+    gap: 346;
 
 }
-nav ul{
+
+nav ul {
     list-style: none;
     display: flex;
     padding: 20px;
     gap: 32px;
-   
+
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: black;
-    
+
 }
-.btn{
+
+.btn {
     width: 164px;
     height: 44px;
     padding: 10px 20px;
@@ -33,26 +37,30 @@ nav ul li a{
     border: none;
     background-color: lightgreen;
 }
-.logo img{
+
+.logo img {
     width: 139px;
     height: 60px;
     padding: 10px 0px;
 }
-#banner{
+
+#banner {
     background: url(../assets/hero-bg.png) no-repeat;
     height: 100vh;
 
 }
-.hero{
+
+.hero {
     width: 85%;
     max-width: 1360px;
     /* align-items: center; */
     text-align: center;
-  
+
 
 
 }
-.bannerCont{
+
+.bannerCont {
     text-align: center;
     padding: 115px 120px 180px 120px;
     display: flex;
@@ -60,7 +68,8 @@ nav ul li a{
     gap: 24px;
     align-items: center;
 }
-.Btn{
+
+.Btn {
     width: 229px;
     height: 35px;
     color: rgb(39, 109, 39);
@@ -68,24 +77,29 @@ nav ul li a{
     border-radius: 1000px;
     margin-bottom: 16px;
 }
-h1{
+
+h1 {
     font-size: 48px;
     font-weight: 700;
 }
-.first{
+
+.first {
     color: rgba(255, 255, 255, 0.904);
 }
-.sec{
+
+.sec {
     color: #30B868;
 }
-.bannerCont p{
+
+.bannerCont p {
     font-size: 18px;
     color: rgb(255, 255, 255);
     line-height: 24px;
     text-align: center;
-    
+
 }
-.herobtn{
+
+.herobtn {
     width: 248px;
     height: 50px;
     border: none;
@@ -96,15 +110,17 @@ h1{
     align-items: center;
     padding: 16px 24px;
     gap: 20px;
-    
+
 
 }
-.herobtn img{
+
+.herobtn img {
     width: 18px;
     height: auto;
     /* margin-top: 4px; */
 }
-.herobtn2{
+
+.herobtn2 {
     width: 210px;
     height: 50px;
     border: none;
@@ -118,39 +134,44 @@ h1{
     border: 2px solid white;
 
 }
-.heroBtn{
+
+.heroBtn {
     display: flex;
     gap: 16px;
 }
-.noteHead{
+
+.noteHead {
     width: 85%;
     max-width: 1360px;
     margin: 0 120px 44px 120px;
- text-align: center;
+    text-align: center;
 }
-.noteHead h1{
+
+.noteHead h1 {
     text-align: center;
     font-size: 48px;
     font-weight: bold;
     padding-bottom: 16px;
 
 }
-.noteHead p{
+
+.noteHead p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
 }
 
-.noteBox{
+.noteBox {
     width: 85%;
     max-width: 1360px;
-  margin: 0 120px;
+    margin: 0 120px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
 
 }
-.noteCard{
+
+.noteCard {
     width: 322px;
     height: 300px;
     display: flex;
@@ -160,23 +181,26 @@ h1{
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
     border: none;
     border-radius: 5%;
-    padding-top:32px ;
+    padding-top: 32px;
 }
-.noteCard img{
+
+.noteCard img {
     width: 60px;
     height: 60px;
     /* padding-top: 32px; */
     background-color: #F95555;
     border: none;
     border-radius: 50%;
-    
+
 }
-.noteCard h3{
+
+.noteCard h3 {
     font-size: 20px;
     font-weight: 600;
     padding: 16px 0px;
 }
-.brainCont{
+
+.brainCont {
     width: 85%;
     max-width: 1360px;
     margin: 120px 120px;
@@ -184,16 +208,51 @@ h1{
     justify-content: space-between;
     align-items: center;
 }
-.brainCont .image{
+
+.brainCont .image {
     width: 600px;
     height: 600px;
 
 }
-.brainSec{
+
+.brainSec {
     width: 700px;
     height: 400px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: start;
 
+}
+
+.brainSec .solpara {
+    color: #30B868;
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 20px;
+    margin-bottom: 16px;
+
+}
+
+.brainSec h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+
+.brainSec .solpara2 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+
+}
+
+.brainSec h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+    align-items: center;
 }
