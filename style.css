@@ -11,7 +11,7 @@ header nav {
     justify-content: space-around;
     margin: 0 auto;
     padding: 16px 120px;
-    gap: 346;
+    /* gap: 346; */
 
 }
 
@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 .bannerCont {
-    background: url(../assets/hero-bg.png);
+    background: url(assets/hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -228,7 +228,7 @@ h1 {
 .brainSec .solpara {
     color: #30B868;
     font-size: 16px;
-    font-weight: medium;
+    font-weight: 500;
     line-height: 20px;
     margin-bottom: 16px;
 
@@ -285,7 +285,7 @@ h1 {
 .challHead p{
     text-align: center;
     font-size: 16px;
-    font-weight: regular;
+    font-weight: 400;
     line-height: 24px;
    color: #627382;
 }
@@ -324,7 +324,7 @@ h1 {
 }
 .footText{
     font-size: 20px;
-    font-weight: medium;
+    font-weight: 500;
     color: white;
 }
 .icons a img{
