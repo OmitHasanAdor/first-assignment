@@ -68,6 +68,7 @@ nav ul li a {
     flex-direction: column;
     gap: 24px;
     align-items: center;
+
 }
 
 .Btn {
@@ -347,4 +348,8 @@ hr{
     font-size: 14px;
     color: #627382;
     margin-bottom: 40px;
+}
+button:hover {
+    background-color: #30B868;
+    cursor: pointer;
 }
