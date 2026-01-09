@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 #banner {
-    background: url(../assets/hero-bg.png) no-repeat;
+    background: url(../assets/hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 
