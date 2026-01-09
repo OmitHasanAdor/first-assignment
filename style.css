@@ -38,8 +38,9 @@ nav ul li a{
     height: 60px;
     padding: 10px 0px;
 }
-#banner{
-    background: url(../assets/hero-bg.png);
+.banner{
+    background: url(../assets/hero-bg.png) no-repeat;
+    height: 100vh;
 
 }
 .hero{
