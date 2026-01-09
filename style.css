@@ -257,3 +257,94 @@ h1 {
     margin-bottom: 16px;
     align-items: center;
 }
+.challengeCont{
+    width: 85%;
+    height: 350px;
+    max-width: 1360px;
+    margin:2px 120px 120px 120px;
+    background-color: #F7F6F2;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.challHead{
+    width: 1280px;
+    height: 115px;
+    padding: 80px 40px 24px 40px;
+}
+.challHead h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+   
+    padding-bottom: 16px;
+}
+.challHead p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 24px;
+   color: #627382;
+}
+.challbtn{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.challbtn .herobtn{
+    margin: 80px auto 32px auto;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.249);
+
+}
+.challbtn p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.footerCont{
+    width: 100%;
+    height: 350px;
+    background-color: #001931;
+}
+.footHead{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 120px 164px 120px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.footText{
+    font-size: 20px;
+    font-weight: medium;
+    color: white;
+}
+.icons a img{
+    margin: 0 5px;
+    background-color: white;
+}
+hr{
+    border: 0.5px solid #627382;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.footEnd{
+    width: 85%;
+    max-width: 1360px;
+    margin: 16px auto 0 auto;
+    text-align: center;
+}
+.footEnd p{
+    font-size: 14px;
+    color: #627382;
+    margin-bottom: 40px;
+}
